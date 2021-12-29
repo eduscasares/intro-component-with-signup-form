@@ -49,6 +49,7 @@ section {
 
 .leftColumn p {
     color: #fff;
+    padding-right: 50px;
 }
 
 .rightColumn {
@@ -183,6 +184,10 @@ input[name="firstName"].invalid ~ .errorIcon.firstName, input[name="lastName"].i
 
     .leftColumn {
         max-width: 100%;
+    }
+
+    .leftColumn p {
+        padding: 0;
     }
 
     .rightColumn {
